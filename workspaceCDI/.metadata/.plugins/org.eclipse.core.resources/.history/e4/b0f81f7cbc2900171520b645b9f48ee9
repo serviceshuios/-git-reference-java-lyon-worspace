@@ -1,0 +1,87 @@
+package mbeans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.enterprise.context.RequestScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.view.ViewScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import metier.Client;
+import service.Iservice;
+
+@Named
+// @ManagedBean
+@ViewScoped
+//@RequestScoped
+public class ClientBean {
+
+	@Inject
+	private Iservice service;
+
+	private Client client;
+	private List<Client> clients;
+	private boolean editMode = false;
+
+	public ClientBean() {
+		// TODO Auto-generated constructor stub
+		client = new Client();
+	}
+
+	public Iservice getService() {
+		return service;
+	}
+
+	public void setService(Iservice service) {
+		this.service = service;
+	}
+
+	public Client getClient() {
+		return client;
+	}
+
+	public void setClient(Client client) {
+		this.client = client;
+	}
+
+	public List<Client> getClients() {
+		return service.getAllClients();
+	}
+
+	public void setClients(List<Client> clients) {
+		this.clients = clients;
+	}
+
+	public boolean isEditMode() {
+		return editMode;
+	}
+
+	public void setEditMode(boolean editMode) {
+		this.editMode = editMode;
+	}
+
+	public String add() {
+		if (editMode == false) {
+			service.addClient(client);
+		} else {
+			service.maj(client);
+			editMode = false;
+		}
+		client = new Client();
+		return "index";
+	}
+
+	public String deleteClient() {
+		service.delete(client);
+		client = new Client();
+		return "index";
+	}
+
+	public String majClient() {
+		//service.maj(client);
+		editMode=true;
+		return "index";
+	}
+}

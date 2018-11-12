@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="metier.AutomobileEssence"/>
+<fullyQualifiedTypeName name="service.FabriqueVehiculeElectrique"/>
+<fullyQualifiedTypeName name="metier.AutomobileElectricite"/>
+<fullyQualifiedTypeName name="metier.Automobile"/>
+<fullyQualifiedTypeName name="service.FabriqueVehiculeEssence"/>
+<fullyQualifiedTypeName name="service.FabriqueVehicule"/>
+<fullyQualifiedTypeName name="metier.ScooterElectrique"/>
+<fullyQualifiedTypeName name="metier.ScooterEssence"/>
+<fullyQualifiedTypeName name="metier.Scooter"/>
+<fullyQualifiedTypeName name="metier.DecorateurIngredient"/>
+<fullyQualifiedTypeName name="metier.Expresso"/>
+<fullyQualifiedTypeName name="metier.Boisson"/>
+<fullyQualifiedTypeName name="metier.Colombia"/>
+<fullyQualifiedTypeName name="metier.Caramel"/>
+<fullyQualifiedTypeName name="metier.Chocolat"/>
+<fullyQualifiedTypeName name="metier.ComportementVol"/>
+<fullyQualifiedTypeName name="metier.ComportementCancan"/>
+<fullyQualifiedTypeName name="metier.CancanMuet"/>
+<fullyQualifiedTypeName name="metier.NePasVoler"/>
+<fullyQualifiedTypeName name="metier.Colvert"/>
+<fullyQualifiedTypeName name="metier.Canard"/>
+<fullyQualifiedTypeName name="metier.Leurre"/>
+<fullyQualifiedTypeName name="metier.CanardEnPlastique"/>
+<fullyQualifiedTypeName name="metier.CoinCoin"/>
+<fullyQualifiedTypeName name="metier.VolerAvecDesAiles"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+h1{
+	text-align:center;
+}
+.p1{
+	text-align:left;
+}
+.p2{
+	text-align:right;
+}

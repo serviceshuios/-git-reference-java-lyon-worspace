@@ -1,0 +1,18 @@
+package session;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ProduitEJBImpl
+ */
+@Stateless
+public class ProduitEJBImpl implements ProduitRemote, ProduitLocal {
+
+    /**
+     * Default constructor. 
+     */
+    public ProduitEJBImpl() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

@@ -1,0 +1,17 @@
+package com.huios;
+
+import com.huios.metier.Personne;
+import com.huios.service.Iservice;
+import com.huios.service.Service;
+
+public class Lanceur {
+
+	public static void main(String[] args) {
+		Iservice service = new Service();
+		Personne p = new Personne();
+		p.setAge(25);
+		p.setName("JEAN JEAN");
+		service.addPersonne(p);
+
+	}
+}

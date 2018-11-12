@@ -1,0 +1,12 @@
+package com.huios.service;
+
+import com.huios.service.exceptions.ArticleNotFoundException;
+import com.huios.service.exceptions.NotEnoughArticleException;
+import com.huios.service.exceptions.QteNegativeException;
+
+public interface Iservice {
+	public void sortArticleDuStock(int id, int qute) throws 
+	ArticleNotFoundException, QteNegativeException, NotEnoughArticleException;
+	
+	public int getQtyEnStock(int id) throws ArticleNotFoundException; 
+}

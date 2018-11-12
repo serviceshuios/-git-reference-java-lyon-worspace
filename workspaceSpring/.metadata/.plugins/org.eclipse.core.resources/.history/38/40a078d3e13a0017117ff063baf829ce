@@ -1,0 +1,13 @@
+package com.huios.dao.springdata;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.huios.metier.User;
+
+public interface UserRepository extends JpaRepository<User, Long>{
+	public User findByNom(String nom);
+	
+	public List<User> findByMC(String mc);
+}

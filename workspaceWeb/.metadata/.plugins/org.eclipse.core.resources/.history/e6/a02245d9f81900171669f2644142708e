@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+.para {
+	color:#0000ff;
+}

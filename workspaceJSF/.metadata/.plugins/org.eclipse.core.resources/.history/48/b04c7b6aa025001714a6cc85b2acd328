@@ -1,0 +1,66 @@
+package pjsf1.jsf.exos;
+
+import javax.faces.application.FacesMessage;
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+
+@ManagedBean(name="mbeanResult", eager=true)
+@SessionScoped
+public class MBeanResult {
+
+
+	public MBeanResult(){
+		System.out.println("MBeanResult constructeur");
+	}
+	
+	public String getDataResult(){
+		return dataResult;
+	}
+
+	public void setData(String data){
+		System.out.println("setting data : "+data);
+		this.data = data;
+	}
+
+	private String data2 = "";
+	
+	public String getData2(){
+		return data2;
+	}
+
+	public void setData2(String data2){
+		System.out.println("setting data2 : "+data2);
+		this.data2 = data2;
+		
+		FacesContext ctx = FacesContext.getCurrentInstance();
+		ctx.addMessage("laForm:inputData2", new FacesMessage("message InputData2 depuis le bean"));
+		ctx.addMessage("laForm:inputDataXXX", new FacesMessage("message InputDataXXX depuis le bean"));
+		ctx.addMessage(null, new FacesMessage("message for all depuis le bean"));
+		ctx.addMessage("laFormResult:inputDataResult", new FacesMessage("message InputDataResult depuis le bean"));
+		
+		
+	}
+	
+	public String getLesDeux(){
+		return data + data2 ;
+	}
+	
+	public String goConditionnel(){
+		
+		if(data.length()>10) return "jsf3result2";
+		
+		else return "jsf3result";
+	}
+	
+	public String testErreur(){
+		/*
+		if(data.length()>10) return "jsf3result2";
+		
+		else return "jsf3result";
+		*/
+		System.out.println("testerreur");
+		return "erreur";
+	}
+}

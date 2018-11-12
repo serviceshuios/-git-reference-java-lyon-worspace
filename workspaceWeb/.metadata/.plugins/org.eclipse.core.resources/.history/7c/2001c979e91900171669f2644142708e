@@ -1,0 +1,2 @@
+var titre = document.getElementById("gros_titre");
+alert(titre);

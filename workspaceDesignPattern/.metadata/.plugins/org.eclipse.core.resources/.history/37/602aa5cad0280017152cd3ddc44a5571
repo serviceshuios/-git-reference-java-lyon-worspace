@@ -1,0 +1,13 @@
+package service;
+
+import metier.Automobile;
+
+public class FabriqueVehiculeEssence implements FabriqueVehicule {
+
+	@Override
+	public Automobile creeAutomobile(String modele, String couleur, int puissance, double espace) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

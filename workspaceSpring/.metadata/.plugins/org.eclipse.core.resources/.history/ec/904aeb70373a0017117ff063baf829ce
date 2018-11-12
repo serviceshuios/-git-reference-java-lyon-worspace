@@ -1,0 +1,30 @@
+package com.huios;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.huios.metier.User;
+import com.huios.service.Iservice;
+
+public class Lanceur {
+
+	public static void main(String[] args) {
+		//1- Chargement du container et creation des beans
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext
+				("applicationContext.xml");
+		//2- récupération des beans
+		Iservice service = (Iservice) appContext.getBean("serviceImpl");
+		User user = (User) appContext.getBean("user");
+		user.setNom("toto");
+		user.setPrenom("titi");
+		User user2 = (User) appContext.getBean("user");
+		System.out.println("bean user="+user.getNom());
+		System.out.println("bean user2="+user2.getNom());
+		
+		//3- utilisation des beans
+		service.ajouterUser(user);
+		
+		//4- fermeture du contexte
+		appContext.close();
+	}
+
+}

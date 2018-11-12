@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- titre de la page web -->
+		<title>Les éléments HTML</title>
+	</head>
+	<!-- contenu du site -->
+<body>
+	<h1>Mon titre principal</h1>
+	<h2>Je suis un titre important</h2>
+	<h3>Je suis un titre d'importance moyenne</h3>
+	<h4>Je suis un titre pas très important</h4>
+	<h5>Je suis un titre peu important</h5>
+	<h6>Je suis un titre vraiment peu important</h6>
+	
+	<p>Voici mon premier paragraphe</p>
+	<p>Voici mon deuxieme <br/> paragraphe</p>
+	
+</body>
+</html>

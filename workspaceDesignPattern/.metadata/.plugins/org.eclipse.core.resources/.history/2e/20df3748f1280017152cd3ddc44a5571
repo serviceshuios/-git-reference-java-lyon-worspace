@@ -1,0 +1,11 @@
+package metier;
+
+public class VolerAvecDesAiles implements ComportementVol {
+
+	@Override
+	public void voler() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

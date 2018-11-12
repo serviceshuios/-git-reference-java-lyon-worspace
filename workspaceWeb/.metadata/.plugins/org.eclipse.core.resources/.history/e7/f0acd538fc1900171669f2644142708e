@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.para {
+	color:#0000ff;
+}
+.para1{
+	color:pink;
+}
+#gros_titre{
+	color:green;
+}

@@ -1,0 +1,15 @@
+package com.huios.metier;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Personne {
+	@Id 
+	@GeneratedValue
+    private Long id;
+    private String name;
+    private Integer age;
+    private Gender gender;
+}

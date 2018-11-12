@@ -1,0 +1,11 @@
+package metier;
+
+public abstract class Canard {
+	ComportementVol comportementVol;
+	ComportementCancan comportementCancan;
+	
+	public void effectuerCancan()
+	{
+		comportementCancan.cancaner();
+	}
+}

@@ -1,0 +1,11 @@
+package metier;
+
+public class Colvert extends Canard {
+
+	@Override
+	public void afficher() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

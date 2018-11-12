@@ -1,0 +1,16 @@
+package com.huios.DemoSpring1;
+
+public class TestInjection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//1- Chargement du container et creation des beans
+		
+		
+		//2- récupération d'un bean
+		
+		//3- traitement
+	}
+
+}

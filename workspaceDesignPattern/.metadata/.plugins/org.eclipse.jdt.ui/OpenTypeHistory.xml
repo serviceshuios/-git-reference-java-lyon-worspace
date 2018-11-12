@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=DP_abstractFactory/src&lt;metier{Automobile.java[Automobile" modifiers="1025" timestamp="1493028312025"/>
+<typeInfo handle="=DP_abstractFactory/src&lt;service{FabriqueVehicule.java[FabriqueVehicule" modifiers="513" timestamp="1493027752063"/>
+<typeInfo handle="=DP_abstractFactory/src&lt;metier{Scooter.java[Scooter" modifiers="1025" timestamp="1493027608114"/>
+<typeInfo handle="=DP_strategy/src&lt;metier{ComportementVol.java[ComportementVol" modifiers="513" timestamp="1493040108930"/>
+<typeInfo handle="=DP_strategy/src&lt;metier{ComportementCancan.java[ComportementCancan" modifiers="513" timestamp="1493040163632"/>
+<typeInfo handle="=DP_strategy/src&lt;metier{Canard.java[Canard" modifiers="1025" timestamp="1493040836509"/>
+</typeInfoHistroy>

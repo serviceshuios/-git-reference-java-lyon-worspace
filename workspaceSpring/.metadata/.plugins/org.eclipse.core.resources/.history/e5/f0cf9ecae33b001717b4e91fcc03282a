@@ -1,0 +1,24 @@
+package com.huios;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.huios.metier.Stock;
+import com.huios.service.Iservice;
+
+
+public class Lanceur {
+
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		//1- Chargement du container et creation des beans
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext
+				("applicationContext.xml");
+		//2- récupération des beans
+		Iservice service = (Iservice) appContext.getBean("serviceImpl");
+		Stock s = (Stock)appContext.getBean("stock");
+		service.sortArticleDuStock(1, 200);
+		appContext.close();
+		
+	}
+
+}

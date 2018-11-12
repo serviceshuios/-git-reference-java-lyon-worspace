@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1486035790186_2" label="springmaven" name="springmaven">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmaven-dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmaven-WS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmaven" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmaven-domaine" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmaven-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springmaven-presentation" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1481019141509_0" label="Window Working Set" name="Aggregate for window 1481019141509"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1481278031423_1" label="Window Working Set" name="Aggregate for window 1481278031423"/>
+</workingSetManager>

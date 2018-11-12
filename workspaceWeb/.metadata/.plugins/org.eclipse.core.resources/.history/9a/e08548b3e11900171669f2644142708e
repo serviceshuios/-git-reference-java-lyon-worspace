@@ -1,0 +1,5 @@
+alert(multiplication(5, 2));
+function multiplication(x,y)
+{
+	return x*y;
+}

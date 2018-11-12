@@ -1,0 +1,19 @@
+package pjsf1.jsf.exos;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
+
+
+@ManagedBean(name="mbinjected", eager=true)
+@SessionScoped
+public class MBInjected {
+	
+	public MBInjected(){
+	}
+
+	public void show() {
+		System.out.println("show injected");
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.huios.service;
+
+public interface Iservice {
+
+	public void addPersonne(Personne p)
+}

@@ -1,0 +1,27 @@
+package lanceur;
+
+import java.util.Properties;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+
+import ejb.CalculatriceLocal;
+
+public class ClientLocal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try {
+			Properties p = new Properties();
+			p.put(Context.URL_PKG_PREFIXES,"org.jboss.ejb.client.naming");
+			Context ctx = new InitialContext(p);
+			CalculatriceLocal stub= (CalculatriceLocal) ctx.lookup("ejb:/Calculette/Calculatrice!ejb.ICatalogueRemote");
+			System.out.println(stub.addtion(5, 6));
+		}catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+
+}

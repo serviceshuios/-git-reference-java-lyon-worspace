@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+h1{
+	text-align:center;
+	text-transform:uppercase;
+}
+.p1{
+	text-align:left;
+	text-transform:lowercase;
+	float:left;
+}
+.p2{
+	text-align:right;
+	text-transform:capitalize;
+	float:right;
+}

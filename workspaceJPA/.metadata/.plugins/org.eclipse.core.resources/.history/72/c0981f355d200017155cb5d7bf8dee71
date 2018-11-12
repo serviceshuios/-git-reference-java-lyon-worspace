@@ -1,0 +1,15 @@
+package metier;
+
+public class LongMetrage {
+
+	private String cinema;
+
+	public String getCinema() {
+		return cinema;
+	}
+
+	public void setCinema(String cinema) {
+		this.cinema = cinema;
+	}
+	
+}

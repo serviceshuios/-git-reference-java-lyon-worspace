@@ -1,0 +1,6 @@
+package com.huios.service;
+
+public interface HelloWorld {
+
+	public String getHelloWorldAsString(String name);
+}

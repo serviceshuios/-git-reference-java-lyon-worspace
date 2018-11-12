@@ -1,0 +1,9 @@
+package com.vincent.TPSpectacle;
+
+public class Guitare implements Instrument {
+
+	public void jouer() {
+		System.out.println("GUIT GUITARE...");
+	}
+
+}

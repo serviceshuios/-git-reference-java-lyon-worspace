@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- titre de la page web -->
+		<title>Les éléments HTML</title>
+	</head>
+	<!-- contenu du site -->
+<body>
+	<h1>Mon titre principal</h1>
+</body>
+</html>

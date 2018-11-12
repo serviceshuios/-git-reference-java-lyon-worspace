@@ -1,0 +1,17 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-02 12:13:43.714
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-02 12:13:54.959
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-02 12:14:54.521
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-02 11:53:51.535
+!MESSAGE Module Proxibanque on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-02-02 11:54:11.548
+!MESSAGE Module Proxibanque on WildFly 10.x still not ready to be shown in browser. Aborting delay.

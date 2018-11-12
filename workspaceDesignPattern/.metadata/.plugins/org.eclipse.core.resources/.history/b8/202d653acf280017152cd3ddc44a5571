@@ -1,0 +1,11 @@
+package metier;
+
+public class AutomobileEssence extends Automobile {
+
+	@Override
+	public void afficheCaracteristiques() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package pjsf1.jsf.exos;
+
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+@ManagedBean(name="mbean1", eager=true)
+@SessionScoped
+public class MBean1 {
+
+	private String message = "Hello ";
+	private int compteur = 0;
+	//final static int CONSTANTE = 10;
+	
+	public MBean1(){
+		System.out.println("MBean1 constructeur");
+	}
+	
+	public String getMessage(){
+		compteur ++;
+		return message + compteur;
+	}
+	
+	private String data = "";
+	
+	public String getData(){
+		return data;
+	}
+
+	public void setData(String data){
+		this.data = data;
+	}
+}

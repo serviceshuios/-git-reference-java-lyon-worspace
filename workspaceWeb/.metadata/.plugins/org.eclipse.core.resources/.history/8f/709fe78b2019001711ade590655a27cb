@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>modèle 1</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="entete"> 
+		Site de démonstration
+	</div>
+	<div id="nav">
+		
+	</div>
+</body>
+</html>

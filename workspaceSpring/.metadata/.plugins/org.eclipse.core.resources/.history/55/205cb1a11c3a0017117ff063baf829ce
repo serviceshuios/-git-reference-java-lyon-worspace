@@ -1,0 +1,13 @@
+package com.huios;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Lanceur {
+
+	public static void main(String[] args) {
+		//1- Chargement du container et creation des beans
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext
+				("applicationContext.xml");
+	}
+
+}

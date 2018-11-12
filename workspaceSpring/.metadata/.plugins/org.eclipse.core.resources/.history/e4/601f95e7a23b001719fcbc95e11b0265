@@ -1,0 +1,5 @@
+package com.vincent.TPSpectacle.intercepteurs;
+
+public class Spectateurs {
+
+}

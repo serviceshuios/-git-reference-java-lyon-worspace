@@ -1,0 +1,9 @@
+
+package com.objis.gestionformations.service.test;
+
+public class FormationServiceTest {
+
+	public void testConformiteIdFormation(){
+	}
+	
+}

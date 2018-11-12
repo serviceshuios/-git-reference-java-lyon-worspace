@@ -1,0 +1,32 @@
+package pjsf1.jsf.exos;
+
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+
+@Named
+@SessionScoped
+public class MbInject {
+	
+	public MbInject(){
+	}
+	
+	@Inject
+	private MbInjected mbInjected;
+	
+	public void setMbInjected(MbInjected mBInjected){
+		this.mbInjected = mBInjected;
+	}
+	
+	private String data = "data from inject";
+
+	public String getData() {
+		
+		mBInjected.show();
+		
+		return mBInjected.getInjectedData();
+
+	}
+	
+}

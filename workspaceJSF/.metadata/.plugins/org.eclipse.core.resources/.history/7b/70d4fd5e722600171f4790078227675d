@@ -1,0 +1,33 @@
+package pjsf1.jsf.exos;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
+
+
+@ManagedBean(name="mbinject")
+@SessionScoped
+public class MBInject {
+	
+	public MBInject(){
+	}
+	
+	@ManagedProperty(value="#{mbclients}")
+	private MBClients mBClients;
+	
+	public MBClients getMBClients() {
+		return mBClients;
+	}
+	
+	public void setMBClients(MBClients mBClients) {
+		System.out.println("setting mblients");
+		this.mBClients = mBClients;
+	}
+
+	private String data = "data from inject";
+
+	public String getData() {
+		return data;
+	}
+	
+}

@@ -1,0 +1,2 @@
+document.getElementById("gros_titre").innerHTML +=" HTML";
+document.querySelector("a").href="http://wikipedia.org";

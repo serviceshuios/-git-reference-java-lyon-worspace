@@ -1,0 +1,12 @@
+package metier;
+
+public abstract class Scooter extends Vehicule {
+	public Scooter(String modele, String couleur, int puissance) {
+		super();
+		this.modele = modele;
+		this.couleur = couleur;
+		this.puissance = puissance;
+	}
+	
+	public abstract void afficheCaracteristiques();
+}

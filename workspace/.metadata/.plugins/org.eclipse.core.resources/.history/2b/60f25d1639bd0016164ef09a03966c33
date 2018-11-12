@@ -1,0 +1,11 @@
+
+package com.objis.gestionformations.service.test;
+import static org.junit.Assert.fail;
+
+public class FormationServiceTest {
+
+	public void testConformiteIdFormation(){
+		fail("Echec test Conformité ID Formation");
+	}
+	
+}

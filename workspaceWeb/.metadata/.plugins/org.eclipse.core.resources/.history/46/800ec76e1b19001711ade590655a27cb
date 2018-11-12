@@ -1,0 +1,32 @@
+div{
+	background-color: #89B;
+	width:400px;
+	border:5px solid #777;
+	border-radius:15px;
+}
+.para1{
+	position: static;
+	top:100px;
+	left:50px;
+}
+.para2{
+	position: relative;
+	left:50px;
+}
+h1 {
+	background-color: yellow;
+	width: 200px;
+	border:5px solid #777;
+	border-radius:15px;
+	position: fixed;
+	top:0px;
+	left:200px;
+	text-align:center;
+	z-index:3;
+}
+h2{
+	background-color: #AA2;
+	position:absolute;
+	top:10px;
+	left:130px;
+}

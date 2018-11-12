@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Insert title here</title>
+</head>
+<body>
+<h:body>
+	<ui:composition>
+		<div>
+			<h1>Liste des personnes</h1>
+			<br />
+			<h:dataTable value="#{personneBean.getPersonnes()}" var="prs"
+				class="datatable" rowClasses="datarow"
+				columnClasses="datacol,datacol" headerClass="dataheader">
+				<h:column>
+					<f:facet name="header">Nom</f:facet>#{prs.nom}</h:column>
+				<h:column>
+					<f:facet name="header">Prenom</f:facet>#{prs.prenom}</h:column>
+				<br />
+			</h:dataTable>
+			<h:form>
+				<h:commandButton value="retour"
+					action="index.xhtml?faces-redirect=true" />
+			</h:form>
+		</div>
+	</ui:composition>
+</h:body>
+</body>
+</html>

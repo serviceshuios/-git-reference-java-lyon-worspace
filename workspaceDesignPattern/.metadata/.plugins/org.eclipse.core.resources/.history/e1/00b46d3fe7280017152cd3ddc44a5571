@@ -1,0 +1,9 @@
+package metier;
+
+public class Chocolat extends DecorateurIngredient{
+
+	public Chocolat(Boisson boisson) {
+		super(boisson);
+	}
+
+}

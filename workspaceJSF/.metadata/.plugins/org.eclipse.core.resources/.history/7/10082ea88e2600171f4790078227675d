@@ -1,0 +1,21 @@
+package pjsf1.jsf.exos;
+
+import javax.enterprise.context.ApplicationScoped;
+
+@Named
+@ApplicationScoped
+public class MBInjected {
+	
+	public MBInjected(){
+		System.out.println("Injected bean created");
+	}
+
+	public void show() {
+		System.out.println("show injected");
+	}
+	
+	public String getInjectedData(){
+		return "Hello injected";
+	}
+
+}

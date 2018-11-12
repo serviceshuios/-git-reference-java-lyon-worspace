@@ -1,0 +1,9 @@
+package com.huios.DemoSpring1;
+
+public class SocieteDevLogiciel {
+
+		private Developpeur developpeur;
+		private Developpeur chefDeveloppeur;
+		
+		
+}

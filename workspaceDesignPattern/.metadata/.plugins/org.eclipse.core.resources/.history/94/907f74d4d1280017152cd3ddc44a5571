@@ -1,0 +1,18 @@
+package presentation;
+
+import metier.Automobile;
+import service.FabriqueVehiculeElectrique;
+
+public class Lanceur {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		FabriqueVehiculeElectrique f1 = new FabriqueVehiculeElectrique();
+		
+		Automobile auto1= f1.creeAutomobile("mercedes", "grise", 200, 180);
+		
+
+	}
+
+}

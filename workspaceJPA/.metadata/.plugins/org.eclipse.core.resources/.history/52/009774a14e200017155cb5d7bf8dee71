@@ -1,0 +1,46 @@
+package metier;
+
+public class Adresse {
+
+	private int id;
+	private String numRue;
+	private String ville;
+	private String codePostal;
+	private String commentaires;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNumRue() {
+		return numRue;
+	}
+	public void setNumRue(String numRue) {
+		this.numRue = numRue;
+	}
+	public String getVille() {
+		return ville;
+	}
+	public void setVille(String ville) {
+		this.ville = ville;
+	}
+	public String getCodePostal() {
+		return CodePostal;
+	}
+	public void setCodePostal(String codePostal) {
+		CodePostal = codePostal;
+	}
+	
+	public String getCommentaires() {
+		return commentaires;
+	}
+	public void setCommentaires(String commentaires) {
+		this.commentaires = commentaires;
+	}
+	@Override
+	public String toString() {
+		return "Adresse [id=" + id + ", numRue=" + numRue + ", ville=" + ville + ", CodePostal=" + CodePostal + "]";
+	}
+	
+}

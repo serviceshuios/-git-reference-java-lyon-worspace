@@ -1,0 +1,1 @@
+document.getElementById("gros_titre").innerHTML +=" HTML";

@@ -1,0 +1,43 @@
+package com.vincent.TPSpectacle;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Concert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 1- Chargement du Container et création des beans
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("spectacle.xml");
+		
+		// 2- récupération d'un bean
+		Performeur olivier =  (Performeur) appContext.getBean("Olivier");
+		Performeur caroline =  (Performeur) appContext.getBean("Caroline");
+		Performeur jeanMarc =  (Performeur) appContext.getBean("Jean-Marc");
+		Performeur julien = (Performeur) appContext.getBean("julien");
+		Performeur alain = (Performeur) appContext.getBean("alain");
+		Performeur louis = (Performeur) appContext.getBean("louis");
+		Performeur michel = (Performeur) appContext.getBean("michel");
+		Performeur maurice = (Performeur) appContext.getBean("maurice");
+		// 3- TTT 
+		System.out.println("-------------OLIVIER---------------------------");
+		olivier.performe();
+		System.out.println("-------------CAROLINE---------------------------");
+		caroline.performe();
+		System.out.println("-------------JEAN MARC---------------------------");
+		jeanMarc.performe();
+		System.out.println("-------------JULIEN---------------------------");
+		julien.performe();
+		System.out.println("-------------ALAIN---------------------------");
+		alain.performe();
+		System.out.println("-------------LOUIS---------------------------");
+		louis.performe();
+		System.out.println("-------------MICHEL---------------------------");
+		michel.performe();
+		System.out.println("-------------MAURICE---------------------------");
+		maurice.performe();
+		// 4- détruire contexte
+		appContext.close();
+	}
+
+}

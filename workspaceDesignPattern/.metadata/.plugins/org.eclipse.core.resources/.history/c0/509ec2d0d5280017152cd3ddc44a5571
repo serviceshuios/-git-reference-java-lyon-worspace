@@ -1,0 +1,17 @@
+package metier;
+
+public abstract class Automobile {
+
+	
+	protected double espace;
+	
+	public Automobile(String modele, String couleur, int puissance, double espace) {
+		super();
+		this.modele = modele;
+		this.couleur = couleur;
+		this.puissance = puissance;
+		this.espace = espace;
+	}
+	
+	public abstract void afficheCaracteristiques();
+}

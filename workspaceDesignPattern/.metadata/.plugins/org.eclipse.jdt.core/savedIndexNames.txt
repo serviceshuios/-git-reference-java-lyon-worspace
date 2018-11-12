@@ -1,0 +1,7 @@
+INDEX VERSION 1.130+C:\Users\Stagiaire\workspaceDesignPattern\.metadata\.plugins\org.eclipse.jdt.core
+1256609243.index
+2820295653.index
+326556601.index
+1101933028.index
+3300157419.index
+3672312364.index

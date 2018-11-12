@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+C:\Users\Stagiaire\workspaceMaven\.metadata\.plugins\org.eclipse.jdt.core
+1573264569.index
+1536149402.index
+2120182578.index
+2061684642.index
+3267188612.index

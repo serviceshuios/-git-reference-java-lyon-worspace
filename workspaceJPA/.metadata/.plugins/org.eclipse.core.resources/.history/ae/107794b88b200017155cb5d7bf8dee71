@@ -1,0 +1,10 @@
+package dao;
+
+import metier.Adresse;
+import metier.Contact;
+
+public interface IDao {
+
+	public int ajouterAdresse(Adresse a);
+	public int ajouterContactAdresse(Contact c,Adresse a);
+}

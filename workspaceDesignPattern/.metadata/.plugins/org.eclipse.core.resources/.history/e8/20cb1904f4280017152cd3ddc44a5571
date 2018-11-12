@@ -1,0 +1,21 @@
+package lanceur;
+
+import metier.Canard;
+import metier.Colvert;
+
+public class MiniSimulateur {
+
+	public static void main(String[] args) {
+		Canard colvert = new Colvert();
+		colvert.afficher();
+		colvert.nager();
+		colvert.effectuerCancan();
+		colvert.effectuerVol();
+		System.out.println("------------------------------------------------------");
+		Canard leurre = new Leurre();
+		colvert.afficher();
+		colvert.nager();
+		colvert.effectuerCancan();
+		colvert.effectuerVol();
+	}
+}

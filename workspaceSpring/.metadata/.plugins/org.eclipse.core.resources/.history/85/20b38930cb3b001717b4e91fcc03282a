@@ -1,0 +1,12 @@
+package com.huios.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.huios.metier.Stock;
+
+public interface StockRepository extends JpaRepository<Stock, Integer>{
+	
+	void sortArticleDuStock(int id,int qute);
+	
+
+}

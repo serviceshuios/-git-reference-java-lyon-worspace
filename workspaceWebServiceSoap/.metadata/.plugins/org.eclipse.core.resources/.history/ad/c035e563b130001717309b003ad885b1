@@ -1,0 +1,14 @@
+package presentation;
+
+import javax.xml.bind.JAXBContext;
+
+import metier.Compte;
+
+public class Lanceur {
+
+	public static void main(String[] args) throws Exception {
+		System.out.println("initialisation du Marshaller");
+		JAXBContext context = JAXBContext.newInstance(Compte.class);
+		
+	}
+}

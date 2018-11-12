@@ -1,0 +1,62 @@
+package com.huios.service;
+
+import org.jboss.logging.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.huios.dao.StockRepository;
+import com.huios.metier.Stock;
+import com.huios.service.exceptions.ArticleNotFoundException;
+import com.huios.service.exceptions.NotEnoughArticleException;
+import com.huios.service.exceptions.QtyNegativeException;
+
+
+@Service
+public class ServiceImpl implements Iservice {
+
+	@Autowired
+	StockRepository stockRepository;
+	@Override
+	public void sortArticleDuStock(int id, int qute)
+			throws ArticleNotFoundException, QtyNegativeException, NotEnoughArticleException {
+		
+		if(qute < 0) {
+				throw new QtyNegativeException();
+		}
+		if(!stockRepository.exists(id))
+		{
+			throw new ArticleNotFoundException();
+		}
+		
+		
+		
+		Logger.getLogger(this.getClass()).info("Nombre articles["
+				+id+"] : "+stockRepository.findOne(id).getQuantite() );
+		
+		stockRepository.sortArticleDuStock(id, qute);
+		
+		Logger.getLogger(this.getClass()).info("Nombre articles["
+				+id+"] : "+stockRepository.findOne(id).getQuantite() );
+		
+		if(stockRepository.findOne(id).getQuantite() < qute)
+		{
+			throw new NotEnoughArticleException();
+		}
+	}
+
+	@Override
+	public int getQtyEnStock(int id) throws ArticleNotFoundException {
+		if(!stockRepository.exists(id))
+		{
+			throw new ArticleNotFoundException();
+		}
+		return stockRepository.findOne(id).getQuantite();
+	}
+
+	@Override
+	public void ajouter(Stock c) {
+		// TODO Auto-generated method stub
+		stockRepository.save(c);
+	}
+
+}

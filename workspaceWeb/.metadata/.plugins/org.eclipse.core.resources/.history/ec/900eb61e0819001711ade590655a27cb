@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>mise en forme de texte</title>
+	<link rel="stylesheet" href="css/style9.css" />
+</head>
+<body>
+	<h1>Proprietes CSS text-</h1>
+	<p class="p1">Un premier paragraphe</p>
+	<p class="p2">UN deuxième paragraphe</p>
+</body>
+</html>

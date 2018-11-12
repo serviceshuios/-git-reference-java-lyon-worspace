@@ -1,0 +1,16 @@
+package metier;
+
+public class AutomobileElectricite extends Automobile {
+
+	public AutomobileElectricite(String modele, String couleur, int puissance, double espace) {
+		super(modele, couleur, puissance, espace);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void afficheCaracteristiques() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

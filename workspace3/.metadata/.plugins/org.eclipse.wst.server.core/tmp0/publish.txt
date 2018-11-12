@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Fri May 05 12:20:20 CEST 2017
+org.eclipse.jst.j2ee.server\:v3-service=WEB-INF/lib/v3-service-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:v3-dao=WEB-INF/lib/v3-dao-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:v3-metier=WEB-INF/lib/v3-metier-0.0.1-SNAPSHOT.jar

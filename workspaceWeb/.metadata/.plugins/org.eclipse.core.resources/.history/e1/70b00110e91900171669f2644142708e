@@ -1,0 +1,2 @@
+var titre = document.getElementById("grostitre");
+alert(titre);

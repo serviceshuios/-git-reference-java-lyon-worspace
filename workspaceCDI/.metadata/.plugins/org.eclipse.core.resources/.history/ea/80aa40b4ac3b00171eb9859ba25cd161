@@ -1,0 +1,13 @@
+package com.huios.service;
+
+import com.huios.metier.Personne;
+
+public class Service implements Iservice {
+
+	@Override
+	public void addPersonne(Personne p) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

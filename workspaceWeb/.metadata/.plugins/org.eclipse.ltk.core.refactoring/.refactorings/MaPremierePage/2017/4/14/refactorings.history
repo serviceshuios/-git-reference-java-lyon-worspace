@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MaPremierePage/WebContent/BlockInline.html&apos; to &apos;Display.html&apos;" description="Rename resource &apos;BlockInline.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/BlockInline.html" name="Display.html" stamp="1491296454211" updateReferences="true"/>
+</session>

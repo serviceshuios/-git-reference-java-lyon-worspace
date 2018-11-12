@@ -1,0 +1,8 @@
+//1- cibler un élément
+var p1 = document.querySelector("p");
+//2- ajouter un écouteur d'évènement
+p1.addEventListener('mouseover',Fonction1);
+function Fonction1(){
+	this.innerHTML="Cliquez sur moi maintenant";
+	this.style.backgroundColor="orange";
+}

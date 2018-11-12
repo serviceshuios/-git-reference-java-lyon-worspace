@@ -1,0 +1,56 @@
+package pjsf1.jsf.exos;
+
+import java.util.ArrayList;
+
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+@ManagedBean(name="mbclients", eager=true)
+@ApplicationScoped
+public class MBClients {
+
+	ArrayList<Client> clients = new ArrayList<Client>();
+	
+	public MBClients(){
+		//System.out.println("Constructeur MBClients");
+		clients.add(new Client("Dupont", "Jean"));
+		clients.add(new Client("Durand", "Paul"));
+	}
+	
+	public ArrayList<Client> getClients(){
+		//System.out.println("get MBClients");
+		return clients;
+	}
+
+	public int getNombre(){
+		return clients.size();
+	}
+	
+	
+	private Client clientCourant;
+	
+	public Client getClientCourant(){
+		return clientCourant;
+	}
+	
+	public String select(Client client){
+		
+		this.clientCourant = client;
+		System.out.println("selected : " + clientCourant.getNom());
+		return "clientDisplay";
+	}
+
+	public String delete(){
+		System.out.println("deleting " + clientCourant.getNom());
+		clients.remove(clientCourant);
+		return "clients";
+	}
+
+	public String add(){
+		System.out.println("adding " + clientCourant.getNom());
+		clients.add(clientCourant);
+		return "clients";
+	}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+<!-- déclaration du bean développeur -->
+<bean id="developpeur" class="com.huios.DemoSpring1.Developpeur">
+	<property name="nom" value="Dev1"/>
+	<property name="anneesExperience" value="8"/>
+</bean>
+
+</beans>

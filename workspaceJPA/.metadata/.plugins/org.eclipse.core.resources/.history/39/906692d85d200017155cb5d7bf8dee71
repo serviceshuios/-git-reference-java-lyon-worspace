@@ -1,0 +1,14 @@
+package metier;
+
+public class TeleFilm extends Film{
+	private String chaine;
+
+	public String getChaine() {
+		return chaine;
+	}
+
+	public void setChaine(String chaine) {
+		this.chaine = chaine;
+	}
+	
+}

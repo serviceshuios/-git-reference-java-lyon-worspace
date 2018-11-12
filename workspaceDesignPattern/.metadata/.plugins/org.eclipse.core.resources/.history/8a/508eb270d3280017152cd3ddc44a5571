@@ -1,0 +1,8 @@
+package metier;
+
+public class Scooter {
+
+	protected String modele;
+	protected String couler;
+	protected int puissance;
+}

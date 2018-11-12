@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<title>Héritage</title>
+		<link rel="stylesheet" href="css/style3.css" />
+</head>
+<body>
+	<h1>Un titre de niveau 1</h1>
+	<p>Un paragraphe avec un <strong>texte important</strong></p>
+	<p id="para">Un autre paragraphe</p>
+	<p>un troisieme paragraphe</p>
+</body>
+</html>

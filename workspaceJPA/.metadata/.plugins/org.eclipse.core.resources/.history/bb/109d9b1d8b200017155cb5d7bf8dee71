@@ -1,0 +1,20 @@
+package dao;
+
+import metier.Adresse;
+import metier.Contact;
+
+public class Dao implements IDao {
+
+	@Override
+	public int ajouterAdresse(Adresse a) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int ajouterContactAdresse(Contact c, Adresse a) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.huios.metier;
+
+public class Personne {
+	@Id 
+	@GeneratedValue
+    private Long id;
+
+    private String name;
+
+    private Integer age;
+
+    private Gender gender;
+}

@@ -1,0 +1,34 @@
+package com.vincent.TPSpectacle;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Concert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 1- Chargement du Container et création des beans
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("spectacle.xml");
+		
+		// 2- récupération d'un bean
+		Performeur olivier =  (Performeur) appContext.getBean("Olivier");
+		Performeur caroline =  (Performeur) appContext.getBean("Caroline");
+		Performeur jeanMarc =  (Performeur) appContext.getBean("Jean-Marc");
+		MusicienPolyInstrument julien = (MusicienPolyInstrument) appContext.getBean("julien");
+		MusicienPolyInstrument alain = (MusicienPolyInstrument) appContext.getBean("alain");
+		
+		// 3- TTT 
+		olivier.performe();
+		caroline.performe();
+		jeanMarc.performe();
+		
+		for(Instrument i : julien.getInstruments())
+		{
+			System.out.println(i);
+		}
+		
+		// 4- détruire contexte
+		appContext.close();
+	}
+
+}

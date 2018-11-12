@@ -1,0 +1,11 @@
+package metier;
+
+public class ScooterEssence extends Scooter {
+
+	@Override
+	public void afficheCaracteristiques() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

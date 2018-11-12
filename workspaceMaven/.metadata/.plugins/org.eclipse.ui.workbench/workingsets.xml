@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491828322542_0" label="monappli" name="monappli">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappli" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappli-domaine" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappli-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappli-dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappli-web" type="4"/>
+</workingSet>
+</workingSetManager>

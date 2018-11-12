@@ -1,0 +1,5 @@
+Algorithme : Inverser les deux valeurs des variables passées en paramètre
+Donnée d'entrée : a = 3, b = 5
+Début
+	
+Fin

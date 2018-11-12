@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493246022228_1" label="monappliJpaCdiJsf" name="monappliJpaCdiJsf">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappliJpaCdiJsf-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappliJpaCdiJsf-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappliJpaCdiJsf" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappliJpaCdiJsf-metier" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/monappliJpaCdiJsf-dao" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493326974779_2" label="ConfigMAVEN_JPA_CDI" name="ConfigMAVEN_JPA_CDI">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConfigMAVEN_JPA_CDI" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493327186971_3" label="config_maven_jpa_cdi_jsf" name="config_maven_jpa_cdi_jsf">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/config_maven_jpa_cdi_jsf" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1493331382867_4" label="proxibanquev2-main" name="proxibanquev2-main">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/proxibanquev2-dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/proxibanquev2-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/proxibanquev2-main" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/proxibanquev2-domaine" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/proxibanquev2-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495300739637_5" label="JPACDIJSF" name="JPACDIJSF"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495459952298_6" label="config_Springdata_jsf_multimodule" name="config_Springdata_jsf_multimodule">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/config_Springdata_jsf_multimodule" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/metier" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/presentation" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1492507227901_0" label="Window Working Set" name="Aggregate for window 1492507227900"/>
+</workingSetManager>

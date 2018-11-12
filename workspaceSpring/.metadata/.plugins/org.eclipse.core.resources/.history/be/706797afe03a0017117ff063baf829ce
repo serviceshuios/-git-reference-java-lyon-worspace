@@ -1,0 +1,9 @@
+package com.huios.dao.springdata;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.huios.metier.User;
+
+public interface UserRepository extends JpaRepository<User, Long>{
+
+}

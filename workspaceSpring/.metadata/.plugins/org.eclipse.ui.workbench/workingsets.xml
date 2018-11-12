@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495224168551_1" label="config_Springdata_jsf_multimodule" name="config_Springdata_jsf_multimodule"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495227972829_2" label="Multimodule_JPA_CDI_JSF" name="Multimodule_JPA_CDI_JSF"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495299953802_3" label="JPACDIJSF" name="JPACDIJSF"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1494840244261_0" label="Window Working Set" name="Aggregate for window 1494840244260"/>
+</workingSetManager>

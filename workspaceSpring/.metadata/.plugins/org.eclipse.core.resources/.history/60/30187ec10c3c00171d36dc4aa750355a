@@ -1,0 +1,11 @@
+package com.huios.service;
+
+public class HelloWordImpl implements HelloWorld {
+
+	@Override
+	public String getHelloWorldAsString(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

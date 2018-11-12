@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+.boites {
+	background-color:yellow;
+	width:500px;
+	padding:20px;
+	border: 20px solid black;
+	margin: 50px;
+}

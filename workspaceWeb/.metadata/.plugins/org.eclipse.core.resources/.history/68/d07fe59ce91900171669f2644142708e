@@ -1,0 +1,4 @@
+var titre = document.getElementById("gros_titre");
+alert(titre);
+
+var tableau = document.getElementsByTagName("p");

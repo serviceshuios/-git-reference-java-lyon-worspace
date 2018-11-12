@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+.para {
+	color:#0000ff;
+}
+.para1{
+	color:pink;
+}
+.styleTitre{
+	color:#00ff00;
+}
+img {
+	width:500px;
+}
+.texteAdroite{
+	text-align: right;
+}

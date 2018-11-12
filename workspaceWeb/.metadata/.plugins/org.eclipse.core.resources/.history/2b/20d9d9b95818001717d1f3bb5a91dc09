@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- titre de la page web -->
+		<title>Ma première page web</title>
+	</head>
+	<!-- contenu du site -->
+<body>
+	Bonjour Tout le monde
+	<a href="elementsHTML.html">aller sur la page 2</a>
+	<img alt="IMAGE DE NBA" src="img/th.jpg"> NBA
+</body>
+</html>

@@ -1,0 +1,8 @@
+var titre = document.getElementById("gros_titre");
+alert(titre);
+
+var tableau = document.getElementsByTagName("p");
+alert ("Notre page contient " +tableau.length+ " paragraphes");
+
+var tableau2 = document.getElementsByClassName("para");
+alert ("Notre page contient " +tableau2.length+ " element(s) de class para");

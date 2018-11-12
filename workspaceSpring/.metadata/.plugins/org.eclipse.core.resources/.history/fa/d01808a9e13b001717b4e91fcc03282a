@@ -1,0 +1,18 @@
+package com.huios.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.huios.metier.Stock;
+import com.huios.service.ServiceImpl;
+import com.huios.service.exceptions.NotEnoughArticleException;
+
+@Transactional(rollbackFor=ServiceImpl.class)
+public interface StockRepository extends JpaRepository<Stock, Integer>{
+	@Modifying
+	@Query("update Stock s set s.quantite=s.quantite-?2 where s.id=?1")
+	void sortArticleDuStock(int id,int qute);
+
+}

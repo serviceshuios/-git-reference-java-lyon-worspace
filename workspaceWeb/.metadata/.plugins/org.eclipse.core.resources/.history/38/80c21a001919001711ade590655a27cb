@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Display</title>
+	<link rel="stylesheet" href="css/style13.css" />
+</head>
+<body>
+<div>
+	<h1>Position</h1>
+	<p class="para1">Un premier paragraphe</p>
+	<p class="para2">Un deuxième paragraphe</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+body {
+	width: 960px;
+	margin : 0 auto;
+}
+#entete{
+	border:1px solid black;
+	margin-bottom:20px;
+	padding: 0 20 px;
+	text-align:center;
+}
+#nav{
+	width:240px;
+	float:left;
+}
+#content {
+	width:700px;
+	float:right;
+}
+.block {
+	border:1px solid black;
+	margin-bottom:20px;
+	padding: 0 20px;
+}

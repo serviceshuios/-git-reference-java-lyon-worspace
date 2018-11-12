@@ -1,0 +1,5 @@
+var a ="Bonjour";
+var b = 12;
+var c = true;
+var d = null;
+var e = 15.4;

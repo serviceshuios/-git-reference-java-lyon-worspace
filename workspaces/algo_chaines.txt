@@ -1,0 +1,9 @@
+Algorithme : Est-ce que le mot commence par "ca" ou contient 'c'
+Début
+	var mot = lire()
+	Si startsWith(mot, "ca") OU contains(mot, "c") Alors
+		afficher("Oui")
+	Sinon
+		afficher("Non")
+	Finsi
+Fin

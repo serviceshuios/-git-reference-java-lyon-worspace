@@ -1,0 +1,17 @@
+<beans>
+<!-- déclaration du bean développeur -->
+<bean id="developpeur1" class="com.huios.DemoSpring1.Developpeur">
+	<property name="nom" value="Dev1"/>
+	<property name="anneesExperience" value="8"/>
+</bean>
+<!-- déclaration du bean Chef Développeur -->
+<bean id="developpeur2" class="com.huios.DemoSpring1.Developpeur">
+	<property name="nom" value="Dev1"/>
+	<property name="anneesExperience" value="15"/>
+</bean>
+<!-- déclaration du bean societedeDev puis injection -->
+<bean name="societe" class="com.huios.DemoSpring1.SocieteDevLogiciel">
+	<property name="developpeur" ref="developpeur1"/>
+	<property name="chefDeveloppeur" ref="developpeur2"/>
+</bean>
+</beans>

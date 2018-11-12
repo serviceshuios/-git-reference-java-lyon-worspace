@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+td, th {
+	border:1px solid black;
+	padding:10px;
+}
+table {
+	border-collapse:collapse;
+	margin-bottom:10px;
+}
+#section-1{
+	background-color: rgba(168,197,36,0.6);
+	padding:10px;
+	margin:20px 0px;
+}
+
+#section-2{
+	background-color:#ffffb7;
+	padding:10px;
+	margin:20px 0px;
+}
+legend{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size:18px;
+	color:#444;
+}
+#section-1 input {
+	width: 300px;
+	height: 20px;
+}
+#section-1 label {
+	display:inline-block;
+	width: 200px;
+	padding:10px 0px 15px 40px;
+}
+input[type="submit"]{
+	background-color: #fe6921;
+}
+span {
+	color:red;
+}
+/*Si la taille de l'écran est inférieure à 681px*/
+@media screen and (max-width:680px) {
+	body {
+		background-color: #ffd688;
+		width:100%;
+		margin: 0 auto;
+	}
+	#entete {
+		border: 1px solid black;
+		margin-bottom: 20px;
+		padding: 0 20 px;
+		text-align: center;
+	}
+	#nav {
+		width: 100%;
+	}
+	#content {
+		width: 100%;
+		
+	}
+	.block {
+		border: 1px solid black;
+		margin-bottom: 20px;
+		padding: 0 20px;
+	}
+	.footer {
+		text-align: center;
+	}
+}
+
+/*Si la taille de l'écran est comprise entre 681px et 1279px*/
+@media screen and (min-width:681px) and (max-width:1279px) {
+	body {
+		background-color: #0080ff;
+		width: 100%;
+		margin:0 auto;
+	}
+	#entete {
+		border: 1px solid black;
+		margin-bottom: 20px;
+		padding: 0 20 px;
+		text-align: center;
+	}
+	#nav {
+		width: 100%;
+		float: left;
+	}
+	#content {
+		width: 100%;
+		float: right;
+	}
+	.planetes {
+		float:left;
+		width:45%;
+	}
+	.etoiles {
+		float:right;
+		width:45%;
+	}
+	.block {
+		border: 1px solid black;
+		margin-bottom: 20px;
+		padding: 0 1%;
+	}
+	.footer {
+		text-align: center;
+	}
+}
+
+/*Si la taille de l'écran est supérieure à 1279px*/
+@media screen and (min-width:1280px) {
+	body {
+		width: 960px;
+		margin: 0 auto;
+		background-color: #a4ffa4;
+	}
+	#entete {
+		border: 1px solid black;
+		margin-bottom: 20px;
+		padding: 0 20 px;
+		text-align: center;
+	}
+	#nav {
+		width: 240px;
+		float: left;
+	}
+	#content {
+		width: 700px;
+		float: right;
+	}
+	.block {
+		border: 1px solid black;
+		margin-bottom: 20px;
+		padding: 0 20px;
+	}
+	.footer {
+		text-align: center;
+	}
+}

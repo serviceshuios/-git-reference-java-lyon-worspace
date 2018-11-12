@@ -1,0 +1,15 @@
+package com.huios.service;
+
+public class MessageRest {
+	
+	@GET
+	@Path("/{param}")
+	public Response afficheMessage(@PathParam("param") String msg) {
+
+		String result = "Restful example : " + msg;
+
+		return Response.status(200).entity(result).build();
+
+	}
+
+}

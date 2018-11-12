@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;dao/src/main/java/com.huios.dao.springdata&apos;&#x0D;&#x0A;- Original project: &apos;config_maven_jpa_cdi_jsf&apos;&#x0D;&#x0A;- Destination element: &apos;dao/src/main/java/com.huios.dao.springdata&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     dao.Dao.java&#x0D;&#x0A;     dao.IDao.java" description="Copy compilation units" destination="=dao/src\/main\/java&lt;com.huios.dao.springdata" element1="/src\/main\/java&lt;dao{Dao.java" element2="/src\/main\/java&lt;dao{IDao.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1495460518708" units="2" version="1.0"/>
+</session>

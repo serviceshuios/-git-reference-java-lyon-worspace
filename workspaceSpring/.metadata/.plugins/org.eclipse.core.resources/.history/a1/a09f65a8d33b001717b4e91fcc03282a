@@ -1,0 +1,49 @@
+package com.huios;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.huios.metier.Stock;
+import com.huios.service.Iservice;
+import com.huios.service.exceptions.ArticleNotFoundException;
+import com.huios.service.exceptions.NotEnoughArticleException;
+import com.huios.service.exceptions.QtyNegativeException;
+
+public class Lanceur {
+
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		//1- Chargement du container et creation des beans
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext
+				("applicationContext.xml");
+		//2- récupération des beans
+		Iservice service = (Iservice) appContext.getBean("serviceImpl");
+		Stock s = (Stock)appContext.getBean("stock");
+		/*s.setNom("Ordinateurs");
+		s.setQuantite(40);
+		service.ajouter(s);
+		s.setNom("Claviers");
+		s.setQuantite(20);
+		service.ajouter(s);
+		s.setNom("Souris");
+		s.setQuantite(60);
+		service.ajouter(s);
+		s.setNom("Ecrans");
+		s.setQuantite(10);
+		service.ajouter(s);*/
+		try {
+			service.sortArticleDuStock(1, 50);
+		} catch (ArticleNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (QtyNegativeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (NotEnoughArticleException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		appContext.close();
+		
+	}
+
+}

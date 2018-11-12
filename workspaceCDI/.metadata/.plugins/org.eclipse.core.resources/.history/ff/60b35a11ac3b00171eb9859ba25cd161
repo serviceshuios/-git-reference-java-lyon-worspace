@@ -1,0 +1,6 @@
+package com.huios.metier;
+
+public class Gender {
+	private int id;
+	private String nom;
+}

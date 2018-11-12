@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<context:annotation-config/>
+	<context:component-scan base-package="com.vincent.TPSpectacle"/>
+
+	<bean id="saxophone" class="com.vincent.TPSpectacle.Saxophone" scope="prototype">
+	</bean>
+	<bean id="violon" class="com.vincent.TPSpectacle.Violon" primary="true">
+	</bean>
+	<bean id="guitare" class="com.vincent.TPSpectacle.Guitare">
+	</bean>
+	<bean id="maGuitare" class="com.vincent.TPSpectacle.Piano">
+	</bean>
+	<bean id="Olivier" class="com.vincent.TPSpectacle.Musicien">
+		<property name="morceau" value="Vive le vent... "></property>
+		<property name="instrument" ref="saxophone"></property>
+	</bean>
+	<bean id="Caroline" class="com.vincent.TPSpectacle.Musicien">
+		<property name="instrument" ref="violon"></property>
+	</bean>
+		<bean id="Jean-Marc" class="com.vincent.TPSpectacle.Musicien">
+		<property name="instrument" ref="saxophone"></property>
+	</bean>
+	<bean id="julien" class="com.vincent.TPSpectacle.MusicienPolyInstrument">
+		<property name="instruments">
+			<list>
+				<ref bean="saxophone"/>
+				<ref bean="saxophone"/>
+				<ref bean="guitare"/>
+				<ref bean="violon"/>
+			</list>
+		</property>
+	</bean>
+	<bean id="alain" class="com.vincent.TPSpectacle.MusicienPolyInstrument">
+		<property name="instruments">
+			<set>
+				<ref bean="saxophone"/>
+				<ref bean="saxophone"/>
+				<ref bean="guitare"/>
+				<ref bean="violon"/>
+			</set>
+		</property>
+	</bean>
+	<bean id="louis" class="com.vincent.TPSpectacle.Musicien"> 
+	<property name="morceau" value="#{Olivier.morceau}"/>
+	<property name="instrument" ref="violon"/>
+	</bean>
+	<bean name="parent" class="com.vincent.TPSpectacle.Musicien" abstract="true">
+		<property name="morceau" value="la marseillaise"/>
+		<property name="instrument" ref="violon"/>
+	</bean>
+	<bean name="martin" parent="parent">
+		<property name="instrument" ref="saxophone"/>
+	</bean>
+	
+	<bean id="instrument" class="com.vincent.TPSpectacle.Saxophone"/>
+	<bean id="michel" class="com.vincent.TPSpectacle.Musicien" autowire="byName">
+		<property name="morceau" value="petit ours brin ..."/>
+	</bean>
+	
+	<bean id="maurice" class="com.vincent.TPSpectacle.Musicien" autowire="byType">
+		<property name="morceau" value="petit ours brin ..."/>
+	</bean>
+
+</beans>

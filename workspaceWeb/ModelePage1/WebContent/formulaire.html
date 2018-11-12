@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>modèle 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="entete"> 
+		<h1>Site de démonstration</h1>
+	</div>
+	<div id="nav">
+		<div class="block planetes">
+			<h3>Les planetes</h3>
+			<ul>
+				<li><a href="#">Mercure</a></li>
+				<li><a href="#">Venus</a></li>
+				<li><a href="#">Terre</a></li>
+				<li><a href="#">Mars</a></li>
+				<li><a href="#">Jupiter</a></li>
+				<li><a href="#">Saturne</a></li>
+				<li><a href="#">Uranus</a></li>
+				<li><a href="#">Neptune</a></li>
+			</ul>
+		</div>
+		<div class="block etoiles">
+			<h3>Les Etoiles</h3>
+			<ul>
+				<li><a href="index.html">aller à la page index</a></li>
+				<li><a href="#">Le Soleil</a></li>
+				<li><a href="#">Les Pulsars</a></li>
+				<li><a href="#">Les trous noirs</a></li>
+				<li><a href="#">Les naines blanches</a></li>
+				<li><a href="page2.html">aller à la page 2</a></li>
+				<li><a href="tableau.html">un exemple de tableau</a></li>
+				<li><a href="formulaire.html">un exemple de formulaire</a></li>
+			</ul>
+		</div>
+		
+	</div>
+	<div id="content">
+	<div class="block">
+		<h2>Formulaire</h2>
+		<form method="post" action="#">
+			<fieldset id="section-1">
+				<legend>Informations personnelles</legend>
+				<label for="nom">Saisir votre nom :</label>
+				<input type="text" name="nom" id="nom"/><br/>
+				<label for="prenom">Saisir votre prenom :</label>
+				<input type="text" name="prenom" id="prenom"/><br/>
+				<label for="mdp">Saisir votre pass :</label>
+				<input type="password" name="mdp" id="mdp"/><br/>
+			</fieldset>
+			<input type="submit" value="valider"/>
+		</form>
+		
+	</div>
+	<div class="block footer">
+		<p>Copyright DEMO LYON 2017</p>
+		<a href="mailto:contact@example.com">me contacter</a> si vous avez des questions
+	</div>
+	</div>
+</body>
+</html>

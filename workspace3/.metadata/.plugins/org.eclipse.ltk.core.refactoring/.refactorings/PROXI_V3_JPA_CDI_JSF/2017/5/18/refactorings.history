@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;service.exeptions&apos; to &apos;service.exceptions&apos;&#x0D;&#x0A;- Original project: &apos;PROXI_V3_JPA_CDI_JSF&apos;&#x0D;&#x0A;- Original element: &apos;PROXI_V3_JPA_CDI_JSF/src/main/java/service.exeptions&apos;&#x0D;&#x0A;- Renamed element: &apos;PROXI_V3_JPA_CDI_JSF/src/main/java/service.exceptions&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;service.exeptions&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;service.exeptions" name="service.exceptions" qualified="false" references="true" stamp="1493715390915" textual="false" version="1.0"/>
+</session>

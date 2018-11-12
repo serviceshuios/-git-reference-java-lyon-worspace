@@ -1,0 +1,5 @@
+package com.huios.dao;
+
+public interface PersonneRepository {
+
+}

@@ -1,0 +1,10 @@
+package com.huios.metier;
+
+import java.io.Serializable;
+
+public class Stock implements Serializable {
+
+	private int id;
+	private String nom;
+	private int quantite;
+}

@@ -1,0 +1,30 @@
+package com.huios;
+
+
+
+import org.jboss.weld.environment.se.Weld;
+import org.jboss.weld.environment.se.WeldContainer;
+
+import com.huios.metier.Personne;
+import com.huios.service.Iservice;
+import com.huios.service.Service;
+
+
+public class Lanceur {
+
+	public static void main(String[] args) {
+		//1- Chargement du conteneur
+		WeldContainer weld = new Weld().initialize();
+		//2- Récupération du service
+		Iservice service = weld.instance().select(Service.class).get();
+		//3- Appel de la méthode à executer
+		Personne p = new Personne();
+		p.setAge(25);
+		p.setName("JEAN JEAN");
+		service.addPersonne(p);
+		//4- destruction des objets
+		weld.instance().destroy(service);
+		
+
+	}
+}

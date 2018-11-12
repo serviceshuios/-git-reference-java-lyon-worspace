@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+body {
+	color:#06B9A1;
+}
+p {
+	color:blue;
+}
+#para{
+	color:red;
+}
+strong {
+	color:green;
+}

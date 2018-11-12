@@ -1,0 +1,15 @@
+package presentation;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+
+import metier.Compte;
+
+public class Lanceur {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		JAXBContext context = JAXBContext.newInstance(Compte.class);
+	}
+
+}

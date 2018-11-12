@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="service.IConseillerImpl"/>
+<fullyQualifiedTypeName name="service.IConseiller"/>
+<fullyQualifiedTypeName name="metier.CompteCourant"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.huios.bookstore.config.MetricsConfiguration"/>
+<fullyQualifiedTypeName name="com.huios.bookstore.config.WebConfigurer"/>
+<fullyQualifiedTypeName name="com.huios.bookstore.config.DatabaseConfiguration"/>
+<fullyQualifiedTypeName name="com.huios.bookstore.web.rest.errors.ExceptionTranslator"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.ApplicationScoped"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.SessionScoped"/>
+<fullyQualifiedTypeName name="org.v3.metier.Agence"/>
+<fullyQualifiedTypeName name="org.v3.service.exceptions.TailleIdentifiantAgenceException"/>
+<fullyQualifiedTypeName name="org.v3.metier.Gerant"/>
+<fullyQualifiedTypeName name="org.v3.metier.ConseillerClientele"/>
+<fullyQualifiedTypeName name="org.v3.metier.Client"/>
+<fullyQualifiedTypeName name="org.v3.service.exceptions.NombreMaxClientsParConseillerException"/>
+<fullyQualifiedTypeName name="org.v3.metier.Compte"/>
+<fullyQualifiedTypeName name="org.v3.service.exceptions.SoldeInsuffisantException"/>
+<fullyQualifiedTypeName name="org.v3.service.exceptions.MontantNegatifException"/>
+<fullyQualifiedTypeName name="org.v3.service.exceptions.CompteInvalideException"/>
+<fullyQualifiedTypeName name="org.v3.metier.Credit"/>
+<fullyQualifiedTypeName name="org.primefaces.event.SelectEvent"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+</qualifiedTypeNameHistroy>

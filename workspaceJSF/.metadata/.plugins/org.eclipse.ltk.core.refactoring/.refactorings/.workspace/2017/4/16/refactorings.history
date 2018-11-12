@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;pjsf1/src/pjsf1/jsf/exos/ClientService.java&apos;" deleteContents="false" description="Delete resource &apos;pjsf1/src/pjsf1/jsf/exos/ClientService.java&apos;" element1="/pjsf1/src/pjsf1/jsf/exos/ClientService.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1492760827075"/>
+</session>

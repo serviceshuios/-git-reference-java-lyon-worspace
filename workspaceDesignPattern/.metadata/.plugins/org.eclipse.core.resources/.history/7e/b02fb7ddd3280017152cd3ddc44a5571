@@ -1,0 +1,15 @@
+package metier;
+
+public abstract class Scooter {
+	protected String modele;
+	protected String couler;
+	protected int puissance;
+	public Scooter(String modele, String couler, int puissance) {
+		super();
+		this.modele = modele;
+		this.couler = couler;
+		this.puissance = puissance;
+	}
+	
+	public abstract void afficheCaracteristiques();
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- titre de la page web -->
+		<title>Les éléments HTML</title>
+	</head>
+	<!-- contenu du site -->
+<body>
+   <!-- titre de mon livre -->
+	<h1>Mon titre principal</h1>
+	<!-- chapitres et sous chapitres de mon livre -->
+	<h2>Je suis un titre important</h2>
+	<h3>Je suis un titre d'importance moyenne</h3>
+	<h4>Je suis un titre pas très important</h4>
+	<h5>Je suis un titre peu important</h5>
+	<h6>Je suis un titre vraiment peu important</h6>
+	<!-- faire un trait de séparation -->
+	<hr/>
+	<!-- paragraphes de mon livre -->
+	<p>Voici mon premier paragraphe</p>
+	<!-- aller à la ligne dans un paragraphe -->
+	<p>Voici mon deuxieme <br/> paragraphe</p>
+	
+	<!-- comment indiquer qu'un texte est très important -->
+	<p>
+	HTML siginifie <strong>HyperText Markup Language</strong>. Ce 
+	Langage est utilisé pour <em>marquer sémantiquement un contenu.</em>
+	</p>
+</body>
+</html>

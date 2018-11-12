@@ -1,0 +1,10 @@
+127.0.0.1 - - [14/Apr/2017:01:11:31 +0200] "GET / HTTP/1.1" 404 993
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:01:11:32 +0200] "GET /demoJPAServletJsp/ HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:01:12:35 +0200] "POST /demoJPAServletJsp/AjouterContact HTTP/1.1" 500 4212
+127.0.0.1 - - [14/Apr/2017:01:16:33 +0200] "GET / HTTP/1.1" 404 993
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:01:16:33 +0200] "GET /demoJPAServletJsp/ HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:01:17:14 +0200] "POST /demoJPAServletJsp/AjouterContact HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2017:15:02:08 +0200] "GET / HTTP/1.1" 404 993
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:15:02:08 +0200] "GET /demoJPAServletJsp/ HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:15:02:55 +0200] "POST /demoJPAServletJsp/AjouterContact HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2017:15:19:19 +0200] "GET /demoJPAServletJsp/index.jsp HTTP/1.1" 200 1168

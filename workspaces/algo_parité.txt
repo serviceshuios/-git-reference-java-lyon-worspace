@@ -1,0 +1,11 @@
+Algorithme : Est-ce que le nombre est pair ou impair ?
+Début
+	var nombre = lire()
+	var parite
+	Si (nombre % 2) == 0 Alors
+		parite = "pair"
+	Sinon
+		parite = "impair"
+	Finsi
+	afficher("Le nombre " + nombre + " est " + parite + " !")
+Fin

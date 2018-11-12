@@ -1,0 +1,25 @@
+package metier;
+
+public abstract class Automobile extends Scooter {
+
+	public Automobile(String modele, String couleur, int puissance) {
+		super(modele, couleur, puissance);
+		// TODO Auto-generated constructor stub
+	}
+
+	protected double espace;
+	/*protected String modele;
+	protected String couleur;
+	protected int puissance;
+	protected double espace;
+	
+	public Automobile(String modele, String couleur, int puissance, double espace) {
+		super();
+		this.modele = modele;
+		this.couleur = couleur;
+		this.puissance = puissance;
+		this.espace = espace;
+	}*/
+	
+	public abstract void afficheCaracteristiques();
+}
